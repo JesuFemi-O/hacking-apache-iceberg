@@ -63,3 +63,8 @@ My systematic approach to understanding Iceberg will see me consider the followi
 - Pyiceberg gives the orm vibe, trino feels like a way to actually leverage sql based statements
 
 - You’ll probably want o stage data in a temp table in something like postgres then do a merge into statement powered by spark or trino...idk, but temp iceberg tables sounds weird.
+
+
+# Progress
+
+- Setting up the infra: you can find all my rants in the `setup-infra.md`
