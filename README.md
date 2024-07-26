@@ -54,3 +54,12 @@ My systematic approach to understanding Iceberg will see me consider the followi
 7. **Play with Kafka, Flink, and Spark streaming**: What will a streaming ingestion pipeline look like? How do these different tools integrate with my lakehouse?
 8. **Kappa!**: Implement an architecture that requires both streaming and batch processing.
 9. **RBAC, Governance, and beyond**: Now, you know it. Well, how do you operationalize and secure the damn thing!
+
+
+## Weird things along the way
+
+- Name spaces in catalogs
+
+- Pyiceberg gives the orm vibe, trino feels like a way to actually leverage sql based statements
+
+- You’ll probably want o stage data in a temp table in something like postgres then do a merge into statement powered by spark or trino...idk, but temp iceberg tables sounds weird.
