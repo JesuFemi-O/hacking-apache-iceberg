@@ -1,3 +1,4 @@
 venv
 pg_data
 minio-data
+.env

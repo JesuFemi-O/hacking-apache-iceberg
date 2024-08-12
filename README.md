@@ -67,4 +67,5 @@ My systematic approach to understanding Iceberg will see me consider the followi
 
 # Progress
 
-- Setting up the infra: you can find all my rants in the [setup-infra.md](./setup-infra.md)
+- Setting up the infra: you can find all my rants in the [setup-infra.md](./notes/setup-infra.md)
+- using pyiceberg to load data: had fun here! notes are [here](./notes/pyiceberg.md)
