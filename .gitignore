@@ -1,3 +1,5 @@
 venv
 pg_data
 minio-data
+.env
+data/yellow_tripdata_2023-01.parquet

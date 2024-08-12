@@ -1,0 +1,10 @@
+catalog:
+  dev:
+    type: sql
+    uri: postgresql+psycopg2://iceberg:iceberg@localhost:5434/iceberg
+  hive-catalog:
+    uri: thrift://localhost:9083
+    s3.region: local
+    s3.endpoint: http://localhost:9000
+    s3.access-key-id: minio
+    s3.secret-access-key: minio123
