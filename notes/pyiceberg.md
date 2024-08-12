@@ -2,6 +2,11 @@
 
 There seem to be many quirky stuff about the pyiceberg library at the moment.
 
+ps: you can get the data I used for my test here:
+```bash
+curl https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet -o /tmp/yellow_tripdata_2023-01.parquet
+```
+
 If you're not willing to keep your pyiceberg.yaml file in your home directory for any reason like checking it into version control (you really shouldn't do this in production setups!!) you'll probably have a tough time getting the library correctly parsing your env settings and using them.
 
 There's a weird thing in the library load_catalog api such that the config is eagerly loaded as soon as you import that library instead of it being loaded at the point where you invoke the api, because of this weirdness, I've had to import load_dotenv and invoke it before importing anything from pyiceberg else it doesn't work!
